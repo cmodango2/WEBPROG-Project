@@ -5,23 +5,25 @@
 }
 
 .container{
-    background-color: rgb(114, 52, 52);
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.container ul{   
-        list-style-type: none;
-        margin: 0;
+.container ul li{   
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
         padding: 0;
         overflow: hidden;
-        background-color: white;     
+        background-color: white; 
+        
 }
 
-.container li{
-    float: left;
-}
-
-
-.container a{
+.container ul li a{
     	display: block;
         color: black;
         text-align: center;
@@ -37,5 +39,5 @@
 }
 
 .active {
-    background-color: blue;
+    background-color: #302DB9;
 }
