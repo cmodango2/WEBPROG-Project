@@ -10,33 +10,16 @@
   <nav>
   		<div class="container"> 
   			<ul>
-  				<li>
-  					<a>Home</a>
-  				</li>
-  				<li>
-  					<a>About Us</a>
-  				</li>
-  				<li>
-  					<a>Our Framework</a>
-  				</li>
-  				<li>
-  					<a>Rated Hotels</a>
-  				</li>
-  				<li>
-  					<a>Partners</a>
-  				</li>
-  				<li>
-  					<a>Assessment</a>
-  				</li>
-  				<li>
-  					<a>Contact Us</a>
-  				</li>
-  				<li>
-  					<a>News</a>
-  				</li>
-  				<li>
-  					<a>FAQ</a>
-  				</li>
+				  <li><a href="*">Home</a></li>
+				  <li><a href="*">About Us</a></li>
+				  <li><a href="*">Our Framework</a></li>
+				  <li><a href="*">Rated Hotels</a></li>
+				  <li><a href="*">Partners</a></li>
+				  <li><a href="*">Assessment</a></li>
+				  <li><a href="*">Contact Us</a></li>
+				  <li><a href="*">News</a></li>
+				  <li><a href="*">Safety Information</a></li>
+				  <li><a href="*">FAQ</a></li>
   			</ul>
   		</div>
   	</nav> 
