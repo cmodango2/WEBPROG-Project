@@ -48,7 +48,7 @@
   letter-spacing: 1px;
 }
 
-.button {
+.framebutton {
   background-color: #302DB9;
   border: none;
   color: white;
@@ -137,7 +137,7 @@
 }
 
 
-.row {
+.imgrow {
   display:flex;
 
 }
