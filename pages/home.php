@@ -3,8 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <title>HOME</title>
-        <link rel="stylesheet" href="<?php echo base_url("/assets/css/home.css"); ?>" />
-        <script src="https://kit.fontawesome.com/c2b30d2943.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="<?php echo base_url("/assets/css/home.css"); ?>"/>
+        <link rel="stylesheet" href="<?php echo base_url("/assets/bootstrap/css/bootstrap.css"); ?>"/>
+        <script src="https://unpkg.com/@popperjs/core@2"></script>      
+            <script type = 'text/javascript' src = "<?php echo base_url(); 
+                ?>/assets/bootstrap/js/bootstrap.js"></script>
     </head>
 
     <body>
@@ -29,7 +32,31 @@
                 <br>Is your hotel resilient?</br></h4></div>
         </div>
 
-        <button class="button round">WATCH HOW FRAMEWORK WORKS</button>
+        <!--MODAL-->
+
+        <button type="button" class="framebutton btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        WATCH HOW FRAMEWORK WORKS
+        </button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <<div class="modal-dialog modal-xl">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">FRAMEWORK</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <video width="100%" controls>
+                    <source src="../../img/Hotel_Resilience_Presentation.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <!--END OF MODAL-->
+        
 
         <div class="breakDiv">
             <div class="text">
@@ -82,7 +109,7 @@
                 <h3>THE RATING PROCESS</h3>
             </div>
         
-            <div class="row text-center">
+            <div class="imgrow text-center">
                 <div class="columnstep">
                     <div class="thumbnail">
                         <img src="../../img/assessment.jpg" width="150px" height="150px" style="border-radius: 50%; border: 5px solid white">
