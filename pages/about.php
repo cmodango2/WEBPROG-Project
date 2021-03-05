@@ -126,6 +126,13 @@
                     pains we are going through with Covid-19, and the threat of another disaster that always hangs above our heads 
                   because of climate change, we cannot afford to waste any more time.</p>           
             
+
+            <h2 style="text-align: center; font-weight: 800; color: #302DB9; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">Start your Resilience Journey Today</h2>
+                <button type="button" class="button btn btn-primary">
+            Contact us now
+            </button>
         </div>
     </body>
 </html>
+
+
