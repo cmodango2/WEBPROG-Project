@@ -39,20 +39,20 @@
         </button>
 
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <<div class="modal-dialog modal-xl">
-            <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">FRAMEWORK</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">FRAMEWORK</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <video width="100%" controls>
+                            <source src="../../img/Hotel_Resilience_Presentation.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video>
+                    </div>
+                </div>
             </div>
-            <div class="modal-body">
-                <video width="100%" controls>
-                    <source src="../../img/Hotel_Resilience_Presentation.mp4" type="video/mp4">
-                    Your browser does not support HTML video.
-                </video>
-            </div>
-            </div>
-        </div>
         </div>
 
         <!--END OF MODAL-->
