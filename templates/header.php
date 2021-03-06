@@ -2,49 +2,24 @@
 <html>
   <head>  
     <meta charset="UTF-8">
-    <title>Home</title>
-	<link rel="stylesheet" href="<?php echo base_url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css") ?>">
-	<link rel="stylesheet" href="<?php echo base_url("/assets/css/footer.css"); ?>" />
+    <title>title</title>
 	<link rel="stylesheet" href="<?php echo base_url("/assets/css/header.css"); ?>" />
-
-	
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo base_url("/assets/css/contact_us.css"); ?>" />
+	<script src="https://kit.fontawesome.com/c2b30d2943.js" crossorigin="anonymous"></script>
   </head>
-
-
   <body>
-	  
   <nav>
   		<div class="container"> 
   			<ul>
-  				<li>
-  					<a>Home</a>
-  				</li>
-  				<li>
-  					<a>About Us</a>
-  				</li>
-  				<li>
-  					<a>Our Framework</a>
-  				</li>
-  				<li>
-  					<a>Rated Hotels</a>
-  				</li>
-  				<li>
-  					<a>Partners</a>
-  				</li>
-  				<li>
-  					<a>Assessment</a>
-  				</li>
-  				<li>
-  					<a>Contact Us</a>
-  				</li>
-  				<li>
-  					<a>News</a>
-  				</li>
-  				<li>
-  					<a>FAQ</a>
-  				</li>
+				  <li><a href="http://localhost/codeigniter/index.php/home">Home</a></li>
+				  <li><a href="http://localhost/codeigniter/index.php/about">About Us</a></li>
+				  <li><a href="http://localhost/codeigniter/index.php/framework">Our Framework</a></li>
+				  <li><a href="http://localhost/codeigniter/index.php/ratedHotels">Rated Hotels</a></li>
+				  <li><a href="http://localhost/codeigniter/index.php/partners">Partners</a></li>
+				  <li><a href="http://localhost/codeigniter/index.php/assessment">Assessment</a></li>
+				  <li><a href="http://localhost/codeigniter/index.php/contact_us">Contact Us</a></li>
+				  <li><a href="http://localhost/codeigniter/index.php/news">News</a></li>
+				  <li><a href="http://localhost/codeigniter/index.php/health">Safety Information</a></li>
+				  <li><a href="http://localhost/codeigniter/index.php/faq">FAQ</a></li>
   			</ul>
   		</div>
   	</nav> 
