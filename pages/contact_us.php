@@ -11,7 +11,7 @@
         </div>
         <div class="leftcol_cts_items">
             <img id="fbb" src="../../img/facebook.png" alt="facebook">
-            <h2 class = "info">+63 9231230132 </h2>
+            <h2 class = "info">+63 9231230132</h2>
         </div>  
         <div class="leftcol_cts_items">
             <img id="fbb" src="../../img/facebook.png" alt="facebook">
