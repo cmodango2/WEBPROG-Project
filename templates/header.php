@@ -6,9 +6,9 @@
 	<link rel="stylesheet" href="<?php echo base_url("/assets/css/header.css"); ?>" />
 	<script src="https://kit.fontawesome.com/c2b30d2943.js" crossorigin="anonymous"></script>
   </head>
-  <body>
-  <nav>
-  		<div class="container"> 
+  <body >
+  <nav >
+  		<div class="container" style="display:inline-block;"> 
   			<ul>
 				  <li><a href="http://localhost/codeigniter/index.php/home">Home</a></li>
 				  <li><a href="http://localhost/codeigniter/index.php/about">About Us</a></li>
@@ -20,7 +20,9 @@
 				  <li><a href="http://localhost/codeigniter/index.php/news">News</a></li>
 				  <li><a href="http://localhost/codeigniter/index.php/health">Safety Information</a></li>
 				  <li><a href="http://localhost/codeigniter/index.php/faq">FAQ</a></li>
+				  
   			</ul>
+			  <i class="far fa-user-circle" style="display: flex; justify-content: space-between;"></i>
   		</div>
   	</nav> 
   </div>
